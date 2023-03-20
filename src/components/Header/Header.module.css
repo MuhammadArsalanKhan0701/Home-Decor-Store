@@ -1,0 +1,115 @@
+.headerContainer {
+  padding: 0 90px 100px;
+}
+.slideContainer {
+  background-color: whitesmoke;
+}
+/* .myswiper {
+
+} */
+.headerSlide1 {
+  display: flex;
+  margin-bottom: 50px;
+}
+.headerSlide1Left {
+  flex-basis: 50%;
+  position: relative;
+}
+.headerSlide1H2 {
+  position: absolute;
+  top: 65%;
+  left: 70px;
+  font-size: 1.7rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.headerSlide1P {
+  position: absolute;
+  top: 75%;
+  left: 70px;
+  color: gray;
+  font-size: 0.95rem;
+  width: 350px;
+}
+.headerSlide1Right { 
+  flex-basis: 50%;
+}
+.headerSlide1RightImage {
+  width: 387px;
+  height: 413px;
+  margin-left: 50px;
+}
+
+.headerSlide2 {
+  display: flex;
+  margin-bottom: 50px;
+  height: 340px;
+}
+.headerSlide2Left {
+  flex-basis: 50%;
+  position: relative;
+}
+.headerSlide2H2 {
+  position: absolute;
+  top: 63%;
+  left: 70px;
+  font-size: 1.7rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.headerSlide2P {
+  position: absolute;
+  top: 75%;
+  left: 70px;
+  color: gray;
+  font-size: 0.95rem;
+  width: 350px;
+}
+.headerSlide2Right { 
+  flex-basis: 50%;
+  position: relative;
+}
+.headerSlide2RightImage1 {
+  width: 227px;
+  height: 300px;
+  margin-left: 50px;
+}
+.headerSlide2RightImage2 {
+  width: 185px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+}
+
+.headerSlide3 {
+  display: flex;
+  margin-bottom: 50px;
+}
+.headerSlide3Left {
+  flex-basis: 50%;
+  position: relative;
+}
+.headerSlide3H2 {
+  position: absolute;
+  top: 65%;
+  left: 70px;
+  font-size: 1.7rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.headerSlide3P {
+  position: absolute;
+  top: 75%;
+  left: 70px;
+  color: gray;
+  font-size: 0.95rem;
+  width: 350px;
+}
+.headerSlide3Right { 
+  flex-basis: 50%;
+}
+.headerSlide3RightImage {
+  width: 351px;
+  height: 500px;
+  margin-left: 50px;
+}

@@ -1,0 +1,96 @@
+.leftMenu {
+  list-style-type: none;
+  display: flex;
+  font-size: 0.8rem;
+  position: relative;
+}
+.leftMenuLink {
+  display: block;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 30px 0;
+  color: black;
+}
+.leftMenuLink:hover {
+  opacity: 0.5;
+}
+.homeSubMenu {
+  display: none;
+}
+.activeHomeSubMenu {
+  position: absolute;
+  top: 100%;
+  background-color: black;
+  color: white;
+  list-style-type: none;
+  padding: 20px;
+  width: 230px;
+}
+.subMenuTitle {
+  padding: 10px 10px 20px;
+  color: white;
+}
+.subMenuLink {
+  display: block;
+  padding: 10px 10px 0;
+  text-decoration: none;
+  color: gray;
+}
+.lastSubMenuLink {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: gray;
+}
+.pagesSubMenu {
+  display: none;
+}
+.activePagesSubMenu {
+  position: absolute;
+  top: 100%;
+  background-color: black;
+  color: white;
+  list-style-type: none;
+  padding: 20px;
+  width: 230px;
+}
+.shopSubMenuDiv {
+  display: none;
+}
+.activeShopSubMenuDiv {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 100%;
+  width: 400%;
+  padding: 20px;
+
+}
+.elementsSubMenuDiv {
+  display: none;
+}
+.activeElementsSubMenuDiv {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 100%;
+  width: 400%;
+  padding: 20px;
+}
+.shopSubMenu1, .shopSubMenu2, .shopSubMenu3, .shopSubMenu4 {
+  list-style-type: none;
+}
+.elementsSubMenu1, .elementsSubMenu2, .elementsSubMenu3, .elementsSubMenu4 {
+  list-style-type: none;
+}
+.arrowRight {
+  display: none;
+}
+.activeArrowRight {
+  display: inline-block;
+  padding-right: 10px;
+  color: white;
+}
