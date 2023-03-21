@@ -28,6 +28,7 @@
   padding: 20px;
   position: absolute;
   top: 100%;
+  z-index: 10;
 }
 .sideMenu {
   display: none;
@@ -41,6 +42,7 @@
   right: 0;
   height: 100vh;
   width: 40vw;
+  z-index: 10;
 }
 .sideMenuH6 {
   padding: 20px;

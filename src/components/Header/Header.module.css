@@ -1,32 +1,29 @@
 .headerContainer {
   padding: 0 90px 100px;
 }
-.slideContainer {
+.myswiper {
   background-color: whitesmoke;
 }
-/* .myswiper {
-
-} */
 .headerSlide1 {
   display: flex;
-  margin-bottom: 50px;
 }
 .headerSlide1Left {
   flex-basis: 50%;
   position: relative;
+  height: 417px;
 }
 .headerSlide1H2 {
   position: absolute;
-  top: 65%;
-  left: 70px;
+  top: 80%;
+  left: 140px;
   font-size: 1.7rem;
   font-weight: 400;
   letter-spacing: 2px;
 }
 .headerSlide1P {
   position: absolute;
-  top: 75%;
-  left: 70px;
+  top: 90%;
+  left: 140px;
   color: gray;
   font-size: 0.95rem;
   width: 350px;
@@ -48,19 +45,20 @@
 .headerSlide2Left {
   flex-basis: 50%;
   position: relative;
+  height: 417px;
 }
 .headerSlide2H2 {
   position: absolute;
-  top: 63%;
-  left: 70px;
+  top: 80%;
+  left: 140px;
   font-size: 1.7rem;
   font-weight: 400;
   letter-spacing: 2px;
 }
 .headerSlide2P {
   position: absolute;
-  top: 75%;
-  left: 70px;
+  top: 90%;
+  left: 140px;
   color: gray;
   font-size: 0.95rem;
   width: 350px;
@@ -88,19 +86,20 @@
 .headerSlide3Left {
   flex-basis: 50%;
   position: relative;
+  height: 417px;
 }
 .headerSlide3H2 {
   position: absolute;
-  top: 65%;
-  left: 70px;
+  top: 80%;
+  left: 140px;
   font-size: 1.7rem;
   font-weight: 400;
   letter-spacing: 2px;
 }
 .headerSlide3P {
   position: absolute;
-  top: 75%;
-  left: 70px;
+  top: 90%;
+  left: 140px;
   color: gray;
   font-size: 0.95rem;
   width: 350px;

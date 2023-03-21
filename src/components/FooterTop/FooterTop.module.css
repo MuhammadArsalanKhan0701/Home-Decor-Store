@@ -1,0 +1,85 @@
+.footerTop {
+  padding: 90px 65px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid lightgray;
+}
+.footerDiv1 {
+  padding: 20px 0;
+}
+.footerDiv1H4 {
+  letter-spacing: 1.6px;
+  font-weight: lighter;
+}
+.footerDiv1Menu {
+  padding-top: 25px;
+  list-style-type: none;
+}
+.footerDiv1MenuLink {
+  text-decoration: none;
+  color: lightgray;
+  display: block;
+  padding-bottom: 8px;
+  font-size: 14px;
+}
+
+.footerDiv2 {
+  padding: 20px 0;
+}
+.footerDiv2H4 {
+  font-size: 1rem;
+  letter-spacing: 1.6px;
+  font-weight: lighter;
+}
+.footerDiv2Menu {
+  padding-top: 25px;
+  list-style-type: none;
+}
+.footerDiv2MenuLink {
+  text-decoration: none;
+  color: lightgray;
+  display: block;
+  padding-bottom: 8px;
+  font-size: 14px;
+}
+
+.footerDiv3 {
+  padding: 20px 0;
+}
+.footerDiv3H4 {
+  font-size: 1rem;
+  letter-spacing: 1.6px;
+  font-weight: lighter;
+}
+.footerDiv3Menu {
+  padding-top: 25px;
+  list-style-type: none;
+}
+.footerDiv3MenuLink {
+  text-decoration: none;
+  color: lightgray;
+  display: block;
+  padding-bottom: 8px;
+  font-size: 14px;
+}
+
+.footerDiv4 {
+  padding: 20px 0;
+}
+.footerDiv4H4 {
+  font-size: 1rem;
+  letter-spacing: 1.6px;
+  font-weight: lighter;
+}
+.footerDiv4Menu {
+  padding-top: 25px;
+  list-style-type: none;
+}
+.footerDiv4MenuLink {
+  text-decoration: none;
+  color: lightgray;
+  display: block;
+  padding-bottom: 8px;
+  font-size: 14px;
+}

@@ -26,6 +26,7 @@
   list-style-type: none;
   padding: 20px;
   width: 230px;
+  z-index: 10;
 }
 .subMenuTitle {
   padding: 10px 10px 20px;
@@ -54,6 +55,7 @@
   list-style-type: none;
   padding: 20px;
   width: 230px;
+  z-index: 10;
 }
 .shopSubMenuDiv {
   display: none;
@@ -66,7 +68,7 @@
   top: 100%;
   width: 400%;
   padding: 20px;
-
+  z-index: 10;
 }
 .elementsSubMenuDiv {
   display: none;
@@ -79,6 +81,7 @@
   top: 100%;
   width: 400%;
   padding: 20px;
+  z-index: 10;
 }
 .shopSubMenu1, .shopSubMenu2, .shopSubMenu3, .shopSubMenu4 {
   list-style-type: none;

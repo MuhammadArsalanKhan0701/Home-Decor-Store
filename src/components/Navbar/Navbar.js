@@ -1,6 +1,6 @@
 import styles from './Navbar.module.css';
-import LeftMenu from '../LeftMenu/LeftMenu';
-import RightMenu from '../RightMenu/RightMenu';
+import LeftMenu from './LeftMenu/LeftMenu';
+import RightMenu from './RightMenu/RightMenu';
 
 const Navbar = () => {
   return (
