@@ -33,6 +33,15 @@
 .sideMenu {
   display: none;
 }
+@keyframes slideInRight {
+  from {
+    transform: translateX(300px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
 .activeSideMenu {
   display: block;
   background-color: black;
@@ -43,6 +52,9 @@
   height: 100vh;
   width: 40vw;
   z-index: 10;
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
 }
 .sideMenuH6 {
   padding: 20px;
