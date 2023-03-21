@@ -30,80 +30,83 @@ const RightMenu = () => {
 
   return (
     <ul className={styles.rightMenu}>
-        <li onMouseEnter={mouseEnterCart} onMouseLeave={mouseLeaveCart}>
-          <a href="#" className={styles.rightMenuLink}>CART ($0) </a>
-          <div className={cartState ? styles.activeCartSubDiv : styles.cartSubDiv}>
-            No products in the cart.
+
+      <li onMouseEnter={mouseEnterCart} onMouseLeave={mouseLeaveCart}>
+        <a href="#" className={styles.rightMenuLink}>CART ($0) </a>
+        <div className={cartState ? styles.activeCartSubDiv : styles.cartSubDiv}>
+          No products in the cart.
+        </div>
+      </li>
+
+      <li><a href="#" className={styles.rightMenuLink}>
+        <FontAwesomeIcon icon={faHeart} /> (0)
+      </a></li>
+
+      <li><a href="#" className={styles.rightMenuLink}>
+        <FontAwesomeIcon icon={faUser} /> LOGIN
+      </a></li>
+
+      <li>
+        <a href="#" className={styles.rightMenuLink}>
+          <FontAwesomeIcon icon={faMagnifyingGlass} />
+        </a>
+      </li>
+
+      <li>
+        <FontAwesomeIcon
+          icon={faBars}
+          className={styles.sideMenuIcon}
+          onClick={sideMenuClickHandler}
+        />
+        <div className={sideMenuState ? styles.activeSideMenu : styles.sideMenu}>
+
+          <h6 className={styles.sideMenuH6}>WELCOME</h6>
+
+          <p className={styles.sideMenuP}>Advertising is the way great brands get to
+            be great brands.
+          </p>
+
+          <div className={styles.sideMenuImgGrid}>
+            <img className={styles.sideMenuImgGridItem} src={sidebarImage1} alt="side bar 1" />
+            <img className={styles.sideMenuImgGridItem} src={sidebarImage2} alt="side bar 2" />
+            <img className={styles.sideMenuImgGridItem} src={sidebarImage3} alt="side bar 3" />
+            <img className={styles.sideMenuImgGridItem} src={sidebarImage4} alt="side bar 4" />
+            <img className={styles.sideMenuImgGridItem} src={sidebarImage5} alt="side bar 5" />
+            <img className={styles.sideMenuImgGridItem} src={sidebarImage6} alt="side bar 6" />
+            <img className={styles.sideMenuImgGridItem} src={sidebarImage7} alt="side bar 7" />
+            <img className={styles.sideMenuImgGridItem} src={sidebarImage8} alt="side bar 8" />
           </div>
-        </li>
 
-        <li><a href="#" className={styles.rightMenuLink}>
-            <FontAwesomeIcon icon={faHeart} /> (0) 
-          </a></li>
+          <div className={styles.sideMenuFooter}>
 
-        <li><a href="#" className={styles.rightMenuLink}>
-            <FontAwesomeIcon icon={faUser} /> LOGIN
-          </a></li>
+            <p className={styles.sideMenuFooterP}>WE ARE AWESOME FOLLOW US</p>
 
-        <li><a href="#" className={styles.rightMenuLink}>
-            <FontAwesomeIcon icon={faMagnifyingGlass} />
-          </a></li>
-
-        <li>
-            <FontAwesomeIcon 
-              icon={faBars}
-              className={styles.sideMenuIcon} 
-              onClick={sideMenuClickHandler}
-            /> 
-            <div className={sideMenuState ? styles.activeSideMenu : styles.sideMenu}>
-              
-              <h6 className={styles.sideMenuH6}>WELCOME</h6>
-
-              <p className={styles.sideMenuP}>Advertising is the way great brands get to 
-                be great brands.
-              </p>
-
-              <div className={styles.sideMenuImgGrid}> 
-                <img className={styles.sideMenuImgGridItem} src={sidebarImage1} alt="side bar 1" />
-                <img className={styles.sideMenuImgGridItem} src={sidebarImage2} alt="side bar 2" />
-                <img className={styles.sideMenuImgGridItem} src={sidebarImage3} alt="side bar 3" />
-                <img className={styles.sideMenuImgGridItem} src={sidebarImage4} alt="side bar 4" />
-                <img className={styles.sideMenuImgGridItem} src={sidebarImage5} alt="side bar 5" />
-                <img className={styles.sideMenuImgGridItem} src={sidebarImage6} alt="side bar 6" />
-                <img className={styles.sideMenuImgGridItem} src={sidebarImage7} alt="side bar 7" />
-                <img className={styles.sideMenuImgGridItem} src={sidebarImage8} alt="side bar 8" />
-              </div> 
-
-              <div className={styles.sideMenuFooter}>
-
-                <p className={styles.sideMenuFooterP}>WE ARE AWESOME FOLLOW US</p>
-
-                <div> 
-                  <a href="https://www.twitter.com">
-                    <FontAwesomeIcon 
-                      icon={faTwitter}
-                      className={styles.sideMenuFooterSocialIcons} /> 
-                  </a>
-                  <a href="https://www.instagram.com">
-                    <FontAwesomeIcon 
-                      icon={faInstagram}
-                      className={styles.sideMenuFooterSocialIcons} />
-                  </a>
-                  <a href="https://www.facebook.com">
-                  <FontAwesomeIcon 
-                    icon={faFacebookF}
-                    className={styles.sideMenuFooterSocialIcons} />
-                  </a>
-                </div> 
-
-              </div>
-
-              <FontAwesomeIcon icon={faX} className={styles.sideMenuXicon} 
-                onClick={() => {setSideMenuState(false)}} />
-
+            <div>
+              <a href="https://www.twitter.com">
+                <FontAwesomeIcon
+                  icon={faTwitter}
+                  className={styles.sideMenuFooterSocialIcons} />
+              </a>
+              <a href="https://www.instagram.com">
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  className={styles.sideMenuFooterSocialIcons} />
+              </a>
+              <a href="https://www.facebook.com">
+                <FontAwesomeIcon
+                  icon={faFacebookF}
+                  className={styles.sideMenuFooterSocialIcons} />
+              </a>
             </div>
-        </li>
-      </ul>
+
+          </div>
+
+          <FontAwesomeIcon icon={faX} className={styles.sideMenuXicon}
+            onClick={() => { setSideMenuState(false) }} />
+
+        </div>
+      </li>
+    </ul>
   );
 }
 

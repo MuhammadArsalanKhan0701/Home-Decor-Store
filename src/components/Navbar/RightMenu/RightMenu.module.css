@@ -21,6 +21,14 @@
 .cartSubDiv {
   display: none;
 }
+@keyframes slideInTop {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 .activeCartSubDiv {
   display: block;
   background-color: black;
@@ -29,6 +37,7 @@
   position: absolute;
   top: 100%;
   z-index: 10;
+  animation: slideInTop 0.5s;
 }
 .sideMenu {
   display: none;
@@ -37,7 +46,6 @@
   from {
     transform: translateX(300px);
   }
-
   to {
     transform: translateX(0);
   }
