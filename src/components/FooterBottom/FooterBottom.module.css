@@ -1,0 +1,30 @@
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  border-top: 1px solid #eee;
+}
+.footerBottomP {
+  font-size: 12px;
+  color: gray;
+}
+.footerBottomSpan {
+  font-size: 12px;
+  color: gray;
+}
+.footerBottomTwitter {
+  font-size: 12px;
+  color: black;
+  padding-left: 15px;
+}
+.footerBottomInstagram {
+  font-size: 12px;
+  color: black;
+  padding-left: 15px;
+}
+.footerBottomFacebook {
+  font-size: 12px;
+  color: black;
+  padding-left: 15px;
+}
