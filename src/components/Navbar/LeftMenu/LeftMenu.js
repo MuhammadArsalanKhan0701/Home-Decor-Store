@@ -2,6 +2,7 @@ import styles from './LeftMenu.module.css';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import HomeSubMenu from './HomeSubMenu/HomeSubMenu';
 
 const LeftMenu = () => {
   const [homeState, setHomeState] = useState(false);
@@ -11,10 +12,10 @@ const LeftMenu = () => {
   const [arrowState, setArrowState] = useState(false);
 
   const mouseEnterHome = () => {
-    setHomeState(true);
+    setHomeState(presvState => !presvState);
   }
   const mouseLeaveHome = () => {
-    setHomeState(false);
+    setHomeState(presvState => !presvState);
   }
   const mouseEnterPages = () => {
     setPagesState(true);
@@ -39,61 +40,7 @@ const LeftMenu = () => {
     <ul className={styles.leftMenu}>
         <li onMouseEnter={mouseEnterHome} onMouseLeave={mouseLeaveHome}>
           <a href="#" className={styles.leftMenuLink}>HOME</a>
-          <ul className={homeState ? styles.activeHomeSubMenu : styles.homeSubMenu}>
-            <li>
-              <p className={styles.subMenuTitle}>
-              <FontAwesomeIcon icon={ faArrowRight } className={styles.activeArrowRight} />
-              Main Home
-              </p></li>
-            <li onMouseEnter={()=>setArrowState(true)} onMouseLeave={()=>setArrowState(false)}>
-              <a href="#" className={styles.subMenuLink}>
-              <FontAwesomeIcon icon={ faArrowRight } className={arrowState ? styles.activeArrowRight : styles.arrowRight} />
-              Minimal Home</a></li>
-            <li onMouseEnter={()=>setArrowState(true)} onMouseLeave={()=>setArrowState(false)}>
-              <a href="#" className={styles.subMenuLink}>
-              <FontAwesomeIcon icon={ faArrowRight } className={arrowState ? styles.activeArrowRight : styles.arrowRight} />
-              Masonry Home</a></li>
-            <li onMouseEnter={()=>setArrowState(true)} onMouseLeave={()=>setArrowState(false)}>
-              <a href="#" className={styles.subMenuLink}>
-              <FontAwesomeIcon icon={ faArrowRight } className={arrowState ? styles.activeArrowRight : styles.arrowRight} />
-              Classic Home</a></li>
-            <li onMouseEnter={()=>setArrowState(true)} onMouseLeave={()=>setArrowState(false)}>
-              <a href="#" className={styles.subMenuLink}>
-              <FontAwesomeIcon icon={ faArrowRight } className={arrowState ? styles.activeArrowRight : styles.arrowRight} />
-              Passepartout Home</a></li>
-            <li onMouseEnter={()=>setArrowState(true)} onMouseLeave={()=>setArrowState(false)}>
-              <a href="#" className={styles.subMenuLink}>
-              <FontAwesomeIcon icon={ faArrowRight } className={arrowState ? styles.activeArrowRight : styles.arrowRight} />
-              Left Menu Home</a></li>
-            <li onMouseEnter={()=>setArrowState(true)} onMouseLeave={()=>setArrowState(false)}>
-              <a href="#" className={styles.subMenuLink}>
-              <FontAwesomeIcon icon={ faArrowRight } className={arrowState ? styles.activeArrowRight : styles.arrowRight} />
-              Boxed Home</a></li>
-            <li onMouseEnter={()=>setArrowState(true)} onMouseLeave={()=>setArrowState(false)}>
-              <a href="#" className={styles.subMenuLink}>
-              <FontAwesomeIcon icon={ faArrowRight } className={arrowState ? styles.activeArrowRight : styles.arrowRight} />
-              Full Screen Home</a></li>
-            <li onMouseEnter={()=>setArrowState(true)} onMouseLeave={()=>setArrowState(false)}>
-              <a href="#" className={styles.subMenuLink}>
-              <FontAwesomeIcon icon={ faArrowRight } className={arrowState ? styles.activeArrowRight : styles.arrowRight} />
-              Product Showcase</a></li>
-            <li onMouseEnter={()=>setArrowState(true)} onMouseLeave={()=>setArrowState(false)}>
-              <a href="#" className={styles.subMenuLink}>
-              <FontAwesomeIcon icon={ faArrowRight } className={arrowState ? styles.activeArrowRight : styles.arrowRight} />
-              Slider Showcase</a></li>
-            <li onMouseEnter={()=>setArrowState(true)} onMouseLeave={()=>setArrowState(false)}>
-              <a href="#" className={styles.subMenuLink}>
-              <FontAwesomeIcon icon={ faArrowRight } className={arrowState ? styles.activeArrowRight : styles.arrowRight} />
-              Simple Home</a></li>
-            <li onMouseEnter={()=>setArrowState(true)} onMouseLeave={()=>setArrowState(false)}>
-              <a href="#" className={styles.subMenuLink}>
-              <FontAwesomeIcon icon={ faArrowRight } className={arrowState ? styles.activeArrowRight : styles.arrowRight} />
-              Split Showcase</a></li>
-            <li onMouseEnter={()=>setArrowState(true)} onMouseLeave={()=>setArrowState(false)}>
-              <a href="#" className={styles.lastSubMenuLink}>
-              <FontAwesomeIcon icon={ faArrowRight } className={arrowState ? styles.activeArrowRight : styles.arrowRight} />
-              Landing Page</a></li>
-          </ul>
+          <HomeSubMenu homeState={homeState} />
         </li>
 
         <li onMouseEnter={mouseEnterShop} onMouseLeave={mouseLeaveShop}>
