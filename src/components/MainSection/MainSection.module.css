@@ -1,0 +1,79 @@
+.mainSection {
+  padding: 60px;
+}
+.menuUL {
+  display: flex;
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+.menuLink {
+  display: block;
+ text-decoration: none;
+ color: gray;
+ padding: 20px; 
+ font-size: 12px;
+ letter-spacing: 2px;
+ font-weight: bold;
+}
+.menuLink:hover {
+  color: black;
+}
+.hiddenGrid {
+  display: none;
+}
+.mainGrid {
+  display: grid;
+  grid-template-rows: 350px 350px;
+  grid-template-columns: 260px 260px 260px 260px;
+  gap: 100px;
+  padding: 0 30px;
+}
+.item1,.item2,.item3,.item4,
+.item5,.item6,.item7,.item8 {
+  text-align: center;
+}
+.img1 {
+  width: 237px;
+  height: 288px;
+}
+.itemTitle {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  font-size: 14px;
+  display: block;
+  padding: 10px 0;
+}
+.itemPrice {
+  display: block;
+  text-decoration: none;
+  color: gray;
+}
+.lightingGrid {
+  display: grid;
+  grid-template-rows: 350px;
+  grid-template-columns: 260px;
+  gap: 100px;
+  padding: 0 30px;
+}
+.decorationGrid {
+  display: grid;
+  grid-template-rows: 350px;
+  grid-template-columns: 260px 260px;
+  gap: 100px;
+  padding: 0 30px;
+}
+.vasesGrid {
+  display: grid;
+  grid-template-rows: 350px;
+  grid-template-columns: 260px 260px;
+  gap: 100px;
+  padding: 0 30px;
+}
+.basicsGrid {
+  display: grid;
+  grid-template-rows: 350px;
+  grid-template-columns: 260px 260px 260px;
+  gap: 100px;
+  padding: 0 30px;
+}
