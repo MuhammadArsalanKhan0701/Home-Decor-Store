@@ -1,0 +1,21 @@
+@keyframes slideInTop {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.elementsSubMenuDiv {
+  display: none;
+}
+.activeElementsSubMenuDiv {
+  background-color: black;
+  display: flex;
+  position: absolute;
+  top: 100%;
+  width: 400%;
+  padding: 20px;
+  z-index: 10;
+  animation: slideInTop 0.5s;
+}

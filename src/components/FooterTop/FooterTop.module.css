@@ -1,12 +1,12 @@
 .footerTop {
   padding: 90px 65px 60px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   border-top: 1px solid #eee;
 }
 .footerDiv1 {
-  padding: 20px 0;
+  padding: 20px;
+  flex-basis: 30%;
 }
 .footerDiv1H4 {
   letter-spacing: 1.6px;
@@ -18,14 +18,15 @@
 }
 .footerDiv1MenuLink {
   text-decoration: none;
-  color: lightgray;
+  color: gray;
   display: block;
   padding-bottom: 8px;
   font-size: 14px;
 }
 
 .footerDiv2 {
-  padding: 20px 0;
+  padding: 20px;
+  flex-basis: 25%;
 }
 .footerDiv2H4 {
   font-size: 1rem;
@@ -38,14 +39,15 @@
 }
 .footerDiv2MenuLink {
   text-decoration: none;
-  color: lightgray;
+  color: gray;
   display: block;
   padding-bottom: 8px;
   font-size: 14px;
 }
 
 .footerDiv3 {
-  padding: 20px 0;
+  padding: 20px;
+  flex-basis: 25%;
 }
 .footerDiv3H4 {
   font-size: 1rem;
@@ -58,14 +60,15 @@
 }
 .footerDiv3MenuLink {
   text-decoration: none;
-  color: lightgray;
+  color: gray;
   display: block;
   padding-bottom: 8px;
   font-size: 14px;
 }
 
 .footerDiv4 {
-  padding: 20px 0;
+  padding: 20px;
+  flex-basis: 25%;
 }
 .footerDiv4H4 {
   font-size: 1rem;
@@ -78,8 +81,16 @@
 }
 .footerDiv4MenuLink {
   text-decoration: none;
-  color: lightgray;
+  color: gray;
   display: block;
   padding-bottom: 8px;
   font-size: 14px;
+}
+.arrowRight {
+  display: none;
+}
+.activeArrowRight {
+  display: inline-block;
+  padding-right: 10px;
+  color: gray;
 }

@@ -1,0 +1,31 @@
+.shopSubDiv3 {
+  padding: 20px;
+  flex-basis: 25%;
+}
+.shopSubMenu3 {
+  list-style-type: none;
+}
+.subMenuTitle {
+  padding: 10px 10px 20px;
+  color: white;
+}
+.subMenuLink {
+  display: block;
+  padding: 10px 10px 0;
+  text-decoration: none;
+  color: gray;
+}
+.lastSubMenuLink {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: gray;
+}
+.arrowRight {
+  display: none;
+}
+.activeArrowRight {
+  display: inline-block;
+  padding-right: 10px;
+  color: white;
+}
