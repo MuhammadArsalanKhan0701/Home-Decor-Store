@@ -40,18 +40,17 @@
   animation: slideInTop 0.5s;
 }
 .sideMenu {
-  display: none;
-}
-@keyframes slideInRight {
-  from {
-    transform: translateX(300px);
-  }
-  to {
-    transform: translateX(0);
-  }
+  background-color: black;
+  padding: 66px 62px;
+  position: absolute;
+  top: 0;
+  right: -50vw;
+  height: 100vh;
+  width: 40vw;
+  z-index: 10;
+  transition: right 2s;
 }
 .activeSideMenu {
-  display: block;
   background-color: black;
   padding: 66px 62px;
   position: absolute;
@@ -60,9 +59,7 @@
   height: 100vh;
   width: 40vw;
   z-index: 10;
-  animation-name: slideInRight;
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
+  transition: right 2s;
 }
 .sideMenuH6 {
   padding: 20px;
