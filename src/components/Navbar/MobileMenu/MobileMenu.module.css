@@ -1,0 +1,51 @@
+@media (min-width: 850px) {
+  .mobileMenuContainer {
+    display: none;
+  }
+}
+.barsIcon {
+  font-size: 1.5rem;
+}
+.inactiveMenu {
+  list-style-type: none;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: -400px;
+  height: 100vh;
+  width: 40vw;
+  z-index: 110;
+  transition: right 1s;
+  width: 340px;
+  padding: 70px;
+  padding-top: 120px;
+}
+.mobileMenu {
+  list-style-type: none;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 40vw;
+  z-index: 110;
+  transition: right 1s;
+  width: 340px;
+  padding: 70px;
+  padding-top: 120px;
+  overflow-y: auto;
+}
+.mobileMenuLink {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 23px;
+}
+.crossIcon {
+  color: white;
+  position: absolute;
+  top: 23px;
+  right: 24px;
+  /* display: block; */
+}

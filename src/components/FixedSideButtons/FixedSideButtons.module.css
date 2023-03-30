@@ -52,3 +52,13 @@
   top: 50%;
   transform: translateY(-50%);
 }
+.goTop {
+  color: white;
+  background-color: black;
+  padding: 15px;
+  position: fixed;
+  top: 85%;
+  right: 25px;
+  z-index: 100;
+  text-decoration: none;
+}

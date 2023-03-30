@@ -15,6 +15,10 @@
 .leftMenuLink:hover {
   opacity: 0.5;
 }
-
+@media (max-width: 850px) {
+  .leftMenu {
+    display: none;
+  }
+}
 
 

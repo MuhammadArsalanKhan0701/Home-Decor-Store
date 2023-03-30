@@ -1,6 +1,7 @@
 import styles from './Navbar.module.css';
 import LeftMenu from './LeftMenu/LeftMenu';
 import RightMenu from './RightMenu/RightMenu';
+import MobileMenu from './MobileMenu/MobileMenu';
 
 const Navbar = () => {
   return (
@@ -12,6 +13,8 @@ const Navbar = () => {
 
       <RightMenu />
       
+      <MobileMenu />
+
     </div>
   );
 }

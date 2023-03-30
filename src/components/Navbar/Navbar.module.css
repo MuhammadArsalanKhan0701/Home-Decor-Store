@@ -13,3 +13,8 @@
   font-weight: bold;
   color: black;
 }
+@media (max-width: 850px) {
+  .logo {
+    padding: 30px 0;
+  }
+}

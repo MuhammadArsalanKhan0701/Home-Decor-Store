@@ -1,9 +1,9 @@
-@keyframes slideInTop {
+@keyframes zoomout {
   from {
-    transform: translateY(-30px);
+    transform: scale(0);
   }
   to {
-    transform: translateY(0);
+    transform: scale(1);
   }
 }
 .elementsSubMenuDiv {
@@ -17,5 +17,5 @@
   width: 400%;
   padding: 20px;
   z-index: 10;
-  animation: slideInTop 0.5s;
+  animation: zoomout 0.5s;
 }

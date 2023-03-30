@@ -4,6 +4,11 @@
   justify-content: space-between;
   font-size: 0.8rem;
 }
+@media (max-width: 850px) {
+  .rightMenu {
+    display: none;
+  }
+}
 .rightMenuLink {
   display: block;
   text-decoration: none;
@@ -21,12 +26,12 @@
 .cartSubDiv {
   display: none;
 }
-@keyframes slideInTop {
+@keyframes zoomout {
   from {
-    transform: translateY(-30px);
+    transform: scale(0);
   }
   to {
-    transform: translateY(0);
+    transform: scale(1);
   }
 }
 .activeCartSubDiv {
@@ -37,7 +42,7 @@
   position: absolute;
   top: 100%;
   z-index: 10;
-  animation: slideInTop 0.5s;
+  animation: zoomout 0.5s;
 }
 .sideMenu {
   background-color: black;
@@ -48,7 +53,7 @@
   height: 100vh;
   width: 40vw;
   z-index: 10;
-  transition: right 2s;
+  transition: right 1s;
 }
 .activeSideMenu {
   background-color: black;
@@ -59,7 +64,7 @@
   height: 100vh;
   width: 40vw;
   z-index: 10;
-  transition: right 2s;
+  transition: right 1s;
 }
 .sideMenuH6 {
   padding: 20px;

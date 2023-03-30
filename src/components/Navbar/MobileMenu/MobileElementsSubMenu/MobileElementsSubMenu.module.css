@@ -1,0 +1,33 @@
+.elementsSubMenuDiv {
+  display: none;
+}
+.activeElementsSubMenuDiv {
+  background-color: black;
+  display: block;
+}
+
+.elementsSubMenu1, .elementsSubMenu2, .elementsSubMenu3, .elementsSubMenu4 {
+  list-style-type: none;
+}
+.subMenuTitle {
+  padding: 10px 10px 0;
+  color: white;
+}
+.subMenuLink {
+  display: block;
+  padding: 10px 10px 0;
+  text-decoration: none;
+  color: gray;
+}
+.lastSubMenuLink {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: gray;
+}
+.subMenuLink:hover {
+  color: white;
+}
+.lastSubMenuLink:hover {
+  color: white;
+}

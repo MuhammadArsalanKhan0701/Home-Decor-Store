@@ -1,25 +1,11 @@
-@keyframes zoomout {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
-}
 .pagesSubMenu {
   display: none;
 }
 .activePagesSubMenu {
   display: block;
-  position: absolute;
-  top: 100%;
   background-color: black;
   color: white;
   list-style-type: none;
-  padding: 20px;
-  width: 230px;
-  z-index: 10;
-  animation: zoomout 0.5s;
 }
 .subMenuLink {
   display: block;
@@ -33,11 +19,9 @@
   text-decoration: none;
   color: gray;
 }
-.arrowRight {
-  display: none;
+.subMenuLink:hover {
+  color: white;
 }
-.activeArrowRight {
-  display: inline-block;
-  padding-right: 10px;
+.lastSubMenuLink:hover {
   color: white;
 }
