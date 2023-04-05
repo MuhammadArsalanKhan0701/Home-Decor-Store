@@ -1,0 +1,397 @@
+/* itemHeader */
+.itemHeader {
+  padding: 100px;
+  display: flex;
+  background-color: #FAFAFA;
+}
+.leftHeader {
+  flex-basis: 50%;
+  display: flex;
+}
+@media (max-width: 1320px) {
+  .itemHeader {
+    flex-direction: column;
+  }
+  .leftHeader {
+    justify-content: center;
+  }
+}
+.imageColumn {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.img1 {
+  width: 100px;
+  height: 120px;
+}
+.img2 {
+  width: 100px;
+  height: 120px;
+}
+.img3 {
+  width: 100px;
+  height: 120px;
+}
+.img4 {
+  width: 100px;
+  height: 120px;
+}
+.mainColumn {
+  padding-left: 20px;
+}
+.mainImage{
+  width: 430px;
+  height: 430px;
+}
+.rightHeader {
+  flex-basis: 50%;
+}
+@media (max-width: 1320px) {
+  .rightHeader {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .rightHeader {
+    width: 100%;
+  }
+}
+.rightHeaderh3 {
+  padding-bottom: 10px;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+.rightHeaderPrice {
+  font-size: 1.5rem;
+  padding-bottom: 60px;
+}
+.rightHeaderRating {
+  font-size: 0.8rem;
+  color: gray;
+  padding-bottom: 20px;
+}
+.starRegspan {
+  padding-bottom: 5px;
+  color: goldenrod;
+  padding-right: 10px;
+}
+.rightHeaderDescription {
+  color: gray;
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
+.quantityDiv {
+  display: inline-block;
+  background-color: white;
+  padding: 10px 30px;
+}
+.quantityDivspan {
+  font-size: 0.8rem;
+  color: gray;
+  padding-left: 15px;
+  padding-right: 40px;
+}
+.quantityInput {
+  width: 40px;
+}
+
+
+.addToCartButton {
+  padding: 10px 40px;
+  background-color: black;
+  color: white;
+  letter-spacing: 1.8px;
+  cursor: pointer;
+}
+.wishLink {
+  display: block;
+  font-size: 0.8rem;
+  color: black;
+  letter-spacing: 1px;
+  padding: 40px 0;
+  text-decoration: none;
+}
+.wishLinkHeart {
+  padding-right: 10px;
+}
+.SKU {
+  font-size: 0.8rem;
+  padding-bottom: 10px;
+}
+.categories {
+  font-size: 0.8rem;
+  padding-bottom: 10px;
+}
+.categoriesSpan {
+  color: gray;
+}
+.tags {
+  font-size: 0.8rem;
+  padding-bottom: 10px;
+}
+.tagSpan {
+  color: gray;
+}
+
+
+/* info section start */
+.infoSection {
+  padding-bottom: 100px;
+}
+.infoUL {
+  list-style-type: none;
+  display: flex;
+  background-color: #FAFAFA;
+  padding-left: 100px;
+}
+@media (max-width: 768px) {
+  .infoUL {
+    flex-direction: column;
+    padding: 0 30px;
+  }
+  .itemHeader {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 540px) {
+  .leftHeader {
+    flex-direction: column;
+  }
+  .img1, .img2, .img3, .img4, .mainImage {
+    width: 50%;
+    height: auto;
+  }
+  .imageColumn {
+    align-items: center;
+  }
+  .mainColumn {
+    padding-left: 0;
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+.infoULLink {
+  display: block;
+  text-decoration: none;
+  padding: 20px 10px;
+  color: black;
+  font-size: 12px;
+  border: 1px solid lightgray;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: none;
+}
+.activeLink {
+  background-color: black;
+  color: white;
+}
+/* ------------------ */
+.hiddenDiv {
+  display: none;
+}
+.description {
+  padding: 100px;
+}
+@media (max-width: 768px) {
+  .description {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+.descriptionTitle {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding: 20px 0;
+}
+.descriptionParagraph {
+  color: gray;
+  line-height: 1.5;
+  text-align: justify;
+}
+.hrule {
+  border-top: 1px solid lightgray;
+  border-bottom: none;
+}
+.information {
+  padding: 70px 100px;
+}
+@media (max-width: 768px) {
+  .information {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+.informationTitle {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding: 20px 0;
+}
+.infoTable {
+  text-align: left;
+  color: #929292;
+  font-size: 1rem;
+}
+.infoTD {
+  padding: 10px;
+}
+.reviews {
+  padding: 70px 100px;
+}
+@media (max-width: 768px) {
+  .reviews {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+.reviewTitle {
+  font-size: 15px;
+  padding: 20px 0;
+  letter-spacing: 3.7px;
+}
+.commentDiv {
+  position: relative;
+}
+.commentContent {
+  display: inline-block;
+  padding-left: 20px;
+  position: absolute;
+  top: 0;
+}
+.starSolP {
+  padding-bottom: 5px;
+  font-size: 0.8rem;
+  color: goldenrod;
+}
+.startSolIcon {
+  padding-left: 5px;
+}
+.commentName {
+  padding-bottom: 5px;
+  color: gray;
+}
+.commentText {
+  color: gray;
+}
+.addReview {
+  padding: 20px 0;
+}
+.addReviewH3 {
+  font-size: 14px;
+  padding-bottom: 15px;
+  letter-spacing: 1.1px;
+}
+.addReviewP {
+  color: gray;
+  padding-bottom: 20px;
+}
+.rating {
+  display: block;
+  padding-bottom: 15px;
+}
+.starRegP {
+  font-size: 0.8rem;
+}
+.starRegIcon {
+  padding-left: 5px;
+}
+.commentLabel {
+  display: block;
+  padding: 20px 0;
+}
+.commentArea {
+  border-color: lightgray;
+  padding: 20px 24px;
+  width: 50%;
+  height: 180px;
+  margin-bottom: 15px;
+}
+.commentArea:focus {
+  outline: none;
+}
+.authorLabel {
+  display: block;
+  padding-bottom: 15px;
+}
+.authorInput {
+  width: 50%;
+  border: 1px solid lightgray;
+  padding: 15px 20px;
+}
+.emailLabel {
+  display: block;
+  padding: 15px 0;
+}
+.emailInput {
+  width: 50%;
+  border: 1px solid lightgray;
+  
+  padding: 15px 20px;
+}
+.authorInput:focus, .emailInput:focus {
+  outline: none;
+}
+.saveName {
+  padding-top: 20px;
+}
+.saveNameLabel {
+  display: inline-block;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+.submitButton {
+  background-color: black;
+  color: white;
+  padding: 10px 46px;
+  letter-spacing: 1.1px;
+}
+.submitButton:hover {
+  opacity: 0.8;
+}
+/* relatedProducts start */
+.relatedProducts {
+  padding: 70px 50px;
+}
+.sectionTitle {
+  padding: 32px 0;
+  font-size: 12px;
+  color: #929292;
+  letter-spacing: 3.7px;
+  font-weight: bold;
+}
+.itemContainer {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1085px)
+{
+  .itemContainer {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
+.item1 {
+  text-align: center;
+}
+.img6 {
+  width: 237px;
+  height: 288px;
+}
+.itemTitle {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  font-size: 14px;
+  display: block;
+  padding: 10px 0;
+}
+.itemPrice {
+  display: block;
+  text-decoration: none;
+  color: gray;
+}
+/* relatedProducts end */

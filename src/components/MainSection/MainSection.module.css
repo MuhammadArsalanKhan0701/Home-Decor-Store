@@ -18,6 +18,12 @@
 .menuLink:hover {
   color: black;
 }
+@media (max-width: 768px) {
+  .menuUL {
+    flex-wrap: wrap;
+    
+  }
+}
 .hiddenGrid {
   display: none;
 }
@@ -76,4 +82,12 @@
   grid-template-columns: 260px 260px 260px;
   gap: 100px;
   padding: 0 30px;
+}
+@media (max-width: 1400px) {
+  .mainGrid, .lightingGrid, .decorationGrid, 
+  .vasesGrid, .basicsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

@@ -23,7 +23,7 @@ const FixedSideButtons = () => {
     return () => {
       window.removeEventListener('scroll', toggleVisibility);
     }
-  }, []);
+  });
 
   const scrollToTop = () => {
     window.scrollTo({

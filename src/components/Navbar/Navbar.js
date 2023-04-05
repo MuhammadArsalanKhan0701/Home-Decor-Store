@@ -2,6 +2,7 @@ import styles from './Navbar.module.css';
 import LeftMenu from './LeftMenu/LeftMenu';
 import RightMenu from './RightMenu/RightMenu';
 import MobileMenu from './MobileMenu/MobileMenu';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -9,7 +10,7 @@ const Navbar = () => {
       
       <LeftMenu />
 
-      <a href="#" className={styles.logo}>DEPOT</a>
+      <Link to='/' className={styles.logo}>DEPOT</Link>
 
       <RightMenu />
       

@@ -28,3 +28,12 @@
   color: black;
   padding-left: 15px;
 }
+@media (max-width: 560px) {
+  .footerBottom {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .footerBottomP {
+    padding-bottom: 5px;
+  }
+}

@@ -7,6 +7,7 @@
 .headerSlide1 {
   display: flex;
 }
+
 .headerSlide1Left {
   flex-basis: 50%;
   position: relative;
@@ -45,7 +46,6 @@
   margin-left: 50px; 
   animation: slideInBottom 1s;
 }
-
 .headerSlide2 {
   display: flex;
   margin-bottom: 50px;
@@ -97,7 +97,6 @@
   top: 0;
   animation: slideInTop 1s;
 }
-
 .headerSlide3 {
   display: flex;
   margin-bottom: 50px;
@@ -131,4 +130,68 @@
   height: 500px;
   margin-left: 50px;
   animation: slideInBottom 1s;
+}
+@media (max-width: 1260px) {
+  .headerContainer {
+    padding: 0 0 100px;
+  }
+  .headerSlide1Right {
+    padding-bottom: 100px;
+  }
+  .headerSlide1H2 {
+    font-size: 1.2rem;
+    padding-top: 80px;
+    width: 210px;
+    left: 40px;
+  }
+  .headerSlide1P {
+    padding-top: 70px;
+    left: 40px;
+    max-width: 300px;
+    justify-content: center;
+  }
+  .headerSlide1RightImage {
+    margin-left: 0;
+  }
+  .headerSlide2H2 {
+    font-size: 1.2rem;
+    width: 230px;
+    left: 40px;
+    top: 75%;
+  }
+  .headerSlide2P {
+    left: 40px;
+    top: 81%;
+    max-width: 300px;
+    justify-content: center;
+  }
+  .headerSlide2RightImage1 {
+    width: 130px;
+    height: 250px;
+    margin-left: -120px;
+  }
+  .headerSlide2RightImage2 {
+  width: 131px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  animation: slideInTop 1s;
+  }
+  .headerSlide3RightImage {
+    width: 270px;
+    height: 300px;
+    margin-left: -120px;
+  }
+  .headerSlide3H2 {
+    font-size: 1.2rem;
+    width: 230px;
+    left: 40px;
+    top: 75%;
+  }
+  .headerSlide3P {
+    left: 40px;
+    top: 88%;
+    max-width: 300px;
+    justify-content: center;
+  }
 }
