@@ -80,7 +80,7 @@ const Item7 = () => {
               <span className={styles.quantityDivspan}>Quantity</span>
               <input type="number" id='quantityInput' name='quantityInput'
                 min={1} max={100} step={1} autoComplete='off' 
-                className={styles.quantityInput}/>
+                className={styles.quantityInput} />
             </div>
             <button type='submit' name='addToCart'
               className={styles.addToCartButton}

@@ -24,18 +24,22 @@
 .img1 {
   width: 100px;
   height: 120px;
+  cursor: pointer;
 }
 .img2 {
   width: 100px;
   height: 120px;
+  cursor: pointer;
 }
 .img3 {
   width: 100px;
   height: 120px;
+  cursor: pointer;
 }
 .img4 {
   width: 100px;
   height: 120px;
+  cursor: pointer;
 }
 .mainColumn {
   padding-left: 20px;
@@ -43,6 +47,7 @@
 .mainImage{
   width: 430px;
   height: 430px;
+  cursor: pointer;
 }
 .rightHeader {
   flex-basis: 50%;
@@ -395,3 +400,23 @@
   color: gray;
 }
 /* relatedProducts end */
+
+/* image modal start */
+.dropback {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  opacity: 0.5;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 30%;
+  height: 40%;
+  z-index: 110;
+}
+/* image modal end */

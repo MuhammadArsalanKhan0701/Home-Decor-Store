@@ -2,7 +2,6 @@ import Navbar from './components/Navbar/Navbar';
 import FooterTop from './components/FooterTop/FooterTop';
 import FooterBottom from './components/FooterBottom/FooterBottom';
 import FixedSideButtons from './components/FixedSideButtons/FixedSideButtons';
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Item1 from './components/Products/Item1';
@@ -13,8 +12,10 @@ import Item5 from './components/Products/Item5';
 import Item6 from './components/Products/Item6';
 import Item7 from './components/Products/Item7';
 import Item8 from './components/Products/Item8';
+import { useState } from 'react';
 
 const App = () => {
+
   return (
     <>
       <BrowserRouter>

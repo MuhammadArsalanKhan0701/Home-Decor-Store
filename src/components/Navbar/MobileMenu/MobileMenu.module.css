@@ -19,6 +19,7 @@
   width: 340px;
   padding: 70px;
   padding-top: 120px;
+  overflow-y: auto;
 }
 .mobileMenu {
   list-style-type: none;
