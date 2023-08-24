@@ -1,2 +1,2 @@
-# React-JS-task1
+# Home Decor Store
  
